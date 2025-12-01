@@ -70,6 +70,17 @@ We love BetaCraft—it inspired us! But we wanted something more specialized for
 ### Will the launcher be ported to other platforms?
 - No! We will not port the launcher to other platforms. We are devotees of GNU/Linux and OpenSource, we only want to draw your attention to the more open world of OpenSource with GNU/Linux, not to draw your attention to closed MacOS or Windows.
 
+### Do I need a license?
+- No. You don't need a license, we believe that software should be available to everyone, not just those who have money. If you have money and are inspired by Minecraft using our launcher, you can support Mojang and buy minecraft.
+
+### Do you engage in piracy?
+- Of course not! We take all versions of the game from open sources - Minecraft Fandom. We do not pirate games in any way.
+
+### Can I help the development?
+- In principle.. Yes! You can write to our corporate email (pzorgv@freenet.am) with a request for the rights to change the repository, you can be given them.
+
+
+
 
 
 
