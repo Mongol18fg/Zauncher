@@ -48,9 +48,9 @@ But this may not be soon, because only one person from the team is currently eng
 
 ![Build Status](https://blob.gifcities.org/gifcities/6Q3RUN6QT3ZY75WFF6MB36RJQF63VO62.gif)
 
-## Supported Versions
+## Supported Versions & Possible System Requirements
 
-Our launcher supports the following versions:
+### Our launcher supports the following versions:
 
 
 - <img src="MarkDownFIles/img.jpeg" width="20" height="20"> Classic 0.0.23a - 0.30
@@ -62,11 +62,22 @@ Our launcher supports the following versions:
 - <img src="MarkDownFIles/1642654501_9-abrakadabra-fun-p-blok-zemli-png-22-3895827805-Photoroom.png" width="20" height="20"> And also has the ability to run third-party builds!
 
 
+### System Requirements:
+### Minimum:
+
+- HHD: 2 GB of free space.
+- CPU: 2.0 GHz dual-core or faster
+- RAM: Minimum 2 GB
+- GPU: OpenGL 2.1 compatible with 512 MB of video memory
+
+### Recommended:
+- CPU: 2.5 GHz dual-core or faster
+- RAM: 4 GB minimum
+- GPU: OpenGL 2.1 compatible and supports 1 GB of VRAM
+- HHD: 2 GB of free space.
 
 
 
-
-
-
+## Other...
 - // © 2025 -=W3IrD_M@@N=-. This code is part of the Zauncher project and is distributed by under the terms of the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license. Full text of the license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
