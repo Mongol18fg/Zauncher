@@ -1,0 +1,115 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="645" d:DesignHeight="380"
+        x:Class="Zauncher.MainWindow"
+        Title="Zauncher"
+        Width="645"
+        Height="380"
+        Icon="avares://Zauncher/Assets/favicon.ico">
+            <Window.Background>
+        <ImageBrush 
+            Source="avares://Zauncher/Assets/dirt.png"
+            TileMode="Tile"
+            Stretch="Uniform"
+            DestinationRect="0,0,64,64"/>
+    </Window.Background>
+<Canvas>
+
+<Button Foreground="white" x:Name="BTN_Game" Click="BTN_Game_Click" HorizontalContentAlignment="Center" Canvas.Top="340" Width="90" Canvas.Left="450" FontStyle="Italic" FontSize="14">Play!</Button>
+<Button Foreground="white" x:Name="BTN_Fix" Click="BTN_Fix_Click" HorizontalContentAlignment="Center" Canvas.Top="340" Canvas.Left="550" Width="90" FontSize="14">Sound Fix</Button>
+<Image Source="avares://Zauncher/Assets/img.jpeg" Width="70" Canvas.Top="12" Canvas.Left="12" Stretch="Uniform"/>
+<TextBlock Foreground="White" Text="ZvB2.03.12" Canvas.Top="90" Canvas.Left="12" />
+<TextBox x:Name="TB_Nick" Canvas.Top="340" Width="160" Canvas.Left="15" />
+<TextBlock Foreground="White" Text="Nick:" Canvas.Top="310" Canvas.Left="15" />
+<ComboBox Foreground="White" x:Name="CMB_Ver" SelectedIndex="0" Width="160" Canvas.Top="340" Canvas.Left="190" >
+    <ComboBoxItem>Classic0_0.0.11a</ComboBoxItem>
+    <ComboBoxItem>Classic0_0.0.13a</ComboBoxItem>
+    <ComboBoxItem>Classic0_0.0.14a</ComboBoxItem>
+    <ComboBoxItem>Classic0_0.0.15a</ComboBoxItem>
+    <ComboBoxItem>Classic0_0.0.16a</ComboBoxItem>
+    <ComboBoxItem>Classic0_0.24</ComboBoxItem>
+    <ComboBoxItem>Classic0_0.25</ComboBoxItem>
+    <ComboBoxItem>Classic0_0.26</ComboBoxItem>
+    <ComboBoxItem>Classic0_0.27</ComboBoxItem>
+    <ComboBoxItem>Classic0_0.28</ComboBoxItem>
+    <ComboBoxItem>Classic0_0.29</ComboBoxItem>
+    <ComboBoxItem>Classic0_0.30</ComboBoxItem>
+    <ComboBoxItem>Indev_20100111</ComboBoxItem>
+    <ComboBoxItem>Indev_20100125</ComboBoxItem>
+    <ComboBoxItem>Indev_20100129</ComboBoxItem>
+    <ComboBoxItem>Indev_20100130</ComboBoxItem>
+    <ComboBoxItem>Indev_20100201</ComboBoxItem>
+    <ComboBoxItem>Indev_20100203</ComboBoxItem>
+    <ComboBoxItem>Indev_20100207</ComboBoxItem>
+    <ComboBoxItem>Indev_20100212</ComboBoxItem>
+    <ComboBoxItem>Indev_20100214</ComboBoxItem>
+    <ComboBoxItem>Indev_20100218</ComboBoxItem>
+    <ComboBoxItem>Infdev_20100313</ComboBoxItem>
+    <ComboBoxItem>Infdev_20100316</ComboBoxItem>
+    <ComboBoxItem>Infdev_20100320</ComboBoxItem>
+    <ComboBoxItem>Infdev_20100321</ComboBoxItem>
+    <ComboBoxItem>Infdev_20100325</ComboBoxItem>
+    <ComboBoxItem>Infdev_20100327</ComboBoxItem>
+    <ComboBoxItem>Alpha0_v1.0.1</ComboBoxItem>
+    <ComboBoxItem>Alpha0_v1.0.2</ComboBoxItem>
+    <ComboBoxItem>Alpha0_v1.0.3</ComboBoxItem>
+    <ComboBoxItem>Alpha0_v1.0.4</ComboBoxItem>
+    <ComboBoxItem>Alpha0_v1.0.5</ComboBoxItem>
+    <ComboBoxItem>Alpha0_v1.0.6</ComboBoxItem>
+    <ComboBoxItem>Alpha0_v1.0.8</ComboBoxItem>
+    <ComboBoxItem>Alpha0_v1.0.9</ComboBoxItem>
+    <ComboBoxItem>Alpha0_v1.0.10</ComboBoxItem>
+    <ComboBoxItem>Alpha0_v1.0.11</ComboBoxItem>
+    <ComboBoxItem>Alpha0_v1.0.12</ComboBoxItem>
+    <ComboBoxItem>Alpha0_v1.0.13</ComboBoxItem>
+    <ComboBoxItem>Alpha0_v1.0.14</ComboBoxItem>
+    <ComboBoxItem>Alpha0_v1.0.15</ComboBoxItem>
+    <ComboBoxItem>Alpha0_v1.0.16</ComboBoxItem>
+    <ComboBoxItem>Alpha0_v1.0.17</ComboBoxItem>
+    <ComboBoxItem>Alpha0_v1.1.0</ComboBoxItem>
+    <ComboBoxItem>Alpha_v1.1.1</ComboBoxItem>
+    <ComboBoxItem>Alpha_v1.1.2</ComboBoxItem>
+    <ComboBoxItem>Alpha_v1.2.0</ComboBoxItem>
+    <ComboBoxItem>Alpha_v1.2.1</ComboBoxItem>
+    <ComboBoxItem>Alpha_v1.2.2</ComboBoxItem>
+    <ComboBoxItem>Alpha_v1.2.3</ComboBoxItem>
+    <ComboBoxItem>Alpha_v1.2.4</ComboBoxItem>
+    <ComboBoxItem>Alpha_v1.2.5</ComboBoxItem>
+    <ComboBoxItem>Alpha_v1.2.6</ComboBoxItem>
+    <ComboBoxItem>Beta_1.0</ComboBoxItem>
+    <ComboBoxItem>Beta_1.1</ComboBoxItem>
+    <ComboBoxItem>Beta_1.2</ComboBoxItem>
+    <ComboBoxItem>Beta_1.2_01</ComboBoxItem>
+    <ComboBoxItem>Beta_1.2_02</ComboBoxItem>
+    <ComboBoxItem>Beta_1.3</ComboBoxItem>
+    <ComboBoxItem>Beta_1.4</ComboBoxItem>
+    <ComboBoxItem>Beta_1.5</ComboBoxItem>
+    <ComboBoxItem>Beta_1.5_01</ComboBoxItem>
+    <ComboBoxItem>Beta_1.6</ComboBoxItem>
+    <ComboBoxItem>Beta_1.7</ComboBoxItem>
+    <ComboBoxItem>Beta_1.8</ComboBoxItem>
+    <ComboBoxItem>Beta_1.8_01</ComboBoxItem>
+    <ComboBoxItem>Beta_1.9_pre1</ComboBoxItem>
+    <ComboBoxItem>Beta_1.9_pre2</ComboBoxItem>
+    <ComboBoxItem>Beta_1.9_pre3</ComboBoxItem>
+    <ComboBoxItem>Beta_1.9_pre5</ComboBoxItem>
+    <ComboBoxItem>Beta_1.9_pre6</ComboBoxItem>
+</ComboBox>
+<TextBlock Foreground="White" Text="Ver:" Canvas.Top="310" Canvas.Left="190" />
+
+<DockPanel Width="200" Height="300" Canvas.Right="0" LastChildFill="True">  
+        <DockPanel.Background>
+            <ImageBrush 
+            Source="avares://Zauncher/Assets/stone.png"
+            TileMode="Tile"
+            Stretch="Uniform"
+            DestinationRect="0,0,64,64"/>
+        </DockPanel.Background>
+        <TextBlock Text="Status:" Foreground="White"/>
+        <TextBlock x:Name="TB_Status" Text="Launcher is running!" TextWrapping="Wrap"
+ Foreground="White"/>
+    </DockPanel>
+</Canvas>
+</Window>
